@@ -17,6 +17,7 @@
 This experiment focuses on designing a Personal Productivity Assistant using prompt engineering.
 The assistant should:
 
+
  ! Manage and organize daily tasks
  
  ! Set and schedule reminders
@@ -26,6 +27,7 @@ The assistant should:
  ! Answer general user queries
  
  ! Adapt to user preferences over time through feedback
+ 
 
 ## Prompt:
 ```
@@ -46,6 +48,7 @@ Identify the main functions of the assistant:
 -> General query answering
 
 -> Preference adaptation
+
 
 
 ### Step 2: Construct Appropriate Prompts

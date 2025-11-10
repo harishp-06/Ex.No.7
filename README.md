@@ -36,6 +36,7 @@ The assistant should:
 ### Step 1: Define Core Requirements
 Identify the main functions of the assistant:
 
+
 -> Task management
 
 -> Scheduling and reminders
@@ -46,7 +47,9 @@ Identify the main functions of the assistant:
 
 -> Preference adaptation
 
+
 ### Step 2: Construct Appropriate Prompts
+
 
 | **Feature**                 | **Sample Prompt**                                                            | **Example Output**                                                                   |
 | --------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -55,6 +58,7 @@ Identify the main functions of the assistant:
 | **Wellness Tips Generator** | “Give me today’s wellness advice.”                                           | 💡 Tip: Drink 2L of water and take a 10-min screen break every 2 hours.              |
 | **General Query**           | “What’s the best way to improve focus while studying?”                       | 🧠 Response: Use the Pomodoro technique – study 25 mins, rest 5 mins.                |
 | **Adaptive Behavior**       | “I prefer evening workouts. Update my schedule accordingly.”                 | 🔄 Acknowledged. Future workouts will be planned for 6:30–7:00 PM.                   |
+
 
 ### Step 3: Simulate Natural Interaction
 
@@ -67,9 +71,11 @@ User: Tomorrow 5 PM.
 Assistant: Task saved — Reminder set for 4:30 PM tomorrow.
 ```
 
+
 ### Step 4: Collect Feedback and Adapt
 
 The assistant records user choices:
+
 
 ! Learns user’s preferred working hours
 
@@ -77,11 +83,13 @@ The assistant records user choices:
 
 ! Prioritizes recurring activities
 
+
 ### Step 5 (Optional): Add Basic Memory (Simulated)
 
 Simple data structure or JSON can be used to store preferences like:
 
-```{
+```
+{
   "preferred_workout_time": "evening",
   "reminder_style": "notifications",
   "favorite_wellness_tips": ["hydration", "stretching"]
@@ -141,6 +149,7 @@ Here’s your plan for today:
 
 Students were able to:
 
+
 -> Understand how to tailor LLM prompts for real-life use cases.
 
 -> Foster creativity by designing assistant features suited to personal or academic life.
@@ -148,6 +157,7 @@ Students were able to:
 -> Learn prompt engineering techniques for dynamic, natural conversations.
 
 -> Experience the practical utility of generative AI in solving daily productivity challenges.
+
 
 
 # Conclusion:

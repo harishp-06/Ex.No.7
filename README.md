@@ -4,8 +4,13 @@
 # Register no.
 # Aim: To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
 
-#AI Tools Required: 
+# AI Tools Required: 
 
+  -> ChatGPT (GPT-5 or GPT-4)
+
+  -> (Optional) Python / Web interface for user interaction
+
+  -> Prompt Engineering techniques
 
 # Explanation: 
 Prompt:

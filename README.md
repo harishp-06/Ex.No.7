@@ -13,27 +13,40 @@
   -> Prompt Engineering techniques
 
 # Explanation: 
-Prompt:
+
+This experiment focuses on designing a Personal Productivity Assistant using prompt engineering.
+The assistant should:
+
+ ! Manage and organize daily tasks
+ ! Set and schedule reminders
+ ! Suggest wellness and productivity tips
+ ! Answer general user queries
+ ! Adapt to user preferences over time through feedback
+
+## Prompt:
+
 "Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
-Procedure:
-1. Define the core requirements of a personal productivity assistant.
-2. Identify and construct appropriate prompts for each task using an LLM (e.g., ChatGPT).
-3. Simulate natural user interaction through a simple interface or command-line system.
-4. Collect feedback or inputs from users and adapt responses accordingly.
-5. (Optional) Integrate basic memory to simulate preference adaptation.
-EXPECTED OUTPUT: - (attached the drive link)
-Output (Example Response by LLM):
-Personal Productivity Assistant Features:
-1. Daily Task Manager:
-o Accept tasks via natural language (e.g., "Remind me to call mom at 6 PM").
-o Organize tasks by priority and deadline.
-o Provide daily summaries and pending items.
-2. Smart Scheduler:
-o Schedule events and set reminders using contextual understanding.
-o Notify user of overlapping appointments or free time slots.
-3. Wellness Tips Generator:
-o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
-o Adapt suggestions based on past user preferences and responses.
+
+## Procedure:
+
+Step 1: Define Core Requirements
+Identify the main functions of the assistant:
+
+-> Task management
+-> Scheduling and reminders
+-> Wellness tips
+-> General query answering
+-> Preference adaptation
+
+### Step 2: Construct Appropriate Prompts
+
+| **Feature**                 | **Sample Prompt**                                                            | **Example Output**                                                                   |
+| --------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Task Manager**            | “Add ‘Finish AI report by 5 PM’ to my task list and show all pending tasks.” | Task List: <br> 1️⃣ Finish AI report – Due: 5 PM <br> 2️⃣ Attend team meeting – 3 PM |
+| **Smart Scheduler**         | “Schedule a 30-min workout in the morning and show my free time slots.”      | 🗓 Free Time: 7–8 AM, 6–7 PM <br> ✅ Workout scheduled for 7:00–7:30 AM               |
+| **Wellness Tips Generator** | “Give me today’s wellness advice.”                                           | 💡 Tip: Drink 2L of water and take a 10-min screen break every 2 hours.              |
+| **General Query**           | “What’s the best way to improve focus while studying?”                       | 🧠 Response: Use the Pomodoro technique – study 25 mins, rest 5 mins.                |
+| **Adaptive Behavior**       | “I prefer evening workouts. Update my schedule accordingly.”                 | 🔄 Acknowledged. Future workouts will be planned for 6:30–7:00 PM.                   |
 
 
 
